@@ -1,0 +1,39 @@
+body{
+    background-image: url(pera.png);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    display: grid;
+   grid-template-columns: 20% 20% 20% 20% 20%;
+   padding-top: 300px;
+   padding-right: 400px;
+}
+
+#btn{
+background-color: green;
+color: white;
+width: 770px;
+font-size: 80px;
+text-align: center;
+grid-column-start: 3;
+}
+
+#btn img{
+width: 123px;
+height: 100px;
+margin-bottom: -20px;
+}
+
+#btn2{
+background-color: green;
+width: 200px;
+font-size: 60px;
+border-radius: 50px;
+text-align: center;
+grid-column-start: 4;
+grid-row-start: 2;
+margin-left: -20px;
+}
+#btn2.p{
+    text-decoration: none;
+    color: white;
+}
